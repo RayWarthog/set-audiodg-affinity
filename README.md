@@ -10,16 +10,16 @@ This script is meant to solve VoiceMeeter microphone crackling sound issues.
         - In the General tab:
             - Give it a name under the 'Name' field (eg. SetAudiodgAffinityAtLogin)
             - Under Security Options:
-                i) Choose 'Run only when user is logged on'
-                ii) Check 'Run with highest privileges'.
+                1) Choose 'Run only when user is logged on'
+                2) Check 'Run with highest privileges'.
         - In the Trigger tab:
-            i) Click New...
-            ii) Choose 'At log on'.
-            iii) Create the trigger.
+            1) Click New...
+            2) Choose 'At log on'.
+            3) Create the trigger.
         - In the Actions tab:
-            i) Click New...
-            ii) Choose 'Start a program' as the action, and choose the exe script.
-            iii) Create the Action.
+            1) Click New...
+            2) Choose 'Start a program' as the action, and choose the exe script.
+            3) Create the Action.
 
 ## Compiling to exe
 Running the script as exe instead of a powershell script would hide the console window.
